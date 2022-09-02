@@ -12,5 +12,6 @@ export class ListadoComponent {
 
   borrarHeroe() {
     this.heroeBorrado = this.heroes.shift() || '';
+    // this.heroes.shift()
   }
 }

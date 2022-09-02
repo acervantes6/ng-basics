@@ -19,7 +19,7 @@ export class AgregarComponent {
   //@Output() onNuevoPersonaje: EventEmitter<Personaje> = new EventEmitter();
 
   agregar() {
-    if(this.nuevo.nombre.trim().length ===0 ){
+    if(this.nuevo.nombre.trim().length === 0 ){
       return;
     }
     //this.onNuevoPersonaje.emit(this.nuevo);
